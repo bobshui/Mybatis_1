@@ -1,5 +1,4 @@
 package src;
-import org.omg.CORBA.LongSeqHelper;
 
 public class Role {
 	private Long id;
