@@ -36,7 +36,7 @@ public class JdbcExample {
 			ps.setLong(1, id);
 			rs = ps.executeQuery();
 			while (rs.next()) {
-				Long roleId = rs.getLong("id");
+				Long roleId = rs.getLong("id"); //不知为何没有用上
 				String userName = rs.getString("role_name");
 				String note = rs.getString("note");
 				Role role = new Role();
